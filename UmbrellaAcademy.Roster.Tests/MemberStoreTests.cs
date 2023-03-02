@@ -47,6 +47,8 @@ namespace UmbrellaAcademy.Roster.Tests
         //[Fact]
         //public void Get_Members_Should_Return_Correct_Number_Of_MembersOnPage()
         //{
+        //    _rosterStorage.ClearMembers();
+        //
         //    var memberOne = new Member
         //    {
         //        Number = 1,
