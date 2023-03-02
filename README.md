@@ -139,7 +139,7 @@ The name of the functions needs to explain what you are testing.
 Get_Members_Should_Return_Correct_Number_Of_Members, test that the number of records returned correctly.
 Get_Members_Should_Return_Correct_Number_Of_MembersOnPage(), test the number of members on the page that are returned correctly.
 
-Now start to fix the tests.
+Now go ahead and uncomment the tests, run them, and see the result. Time to fix some code.
 
 ## Challenge 4
 Now we have the first test working. We now need to add functionality. We want to search for a Member by their number.
