@@ -94,7 +94,11 @@ jobs:
         app-name: rocmn-${{ github.REPOSITORY_OWNER }}
         slot-name: 'Production'
         package: './.net-app'
-
+    
+    - name: sleep for 45 seconds
+      run: sleep 45s
+      shell: bash
+      
     - name: warm-up
       uses: nick-fields/retry@v2
       with:
